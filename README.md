@@ -12,7 +12,7 @@ Spring Boot application providing a REST API to save and show exchange rate data
 CREATE DATABASE exchange_rates_db;
 ```
 ### 3. Configure application.properties
-In src/main/resources/application.properties, set up your database connection – your username and your password.
+In src/main/resources/application.properties, set up your MySQL database connection – your username and your password.
 
 ### 4. Run the app
 
@@ -21,5 +21,7 @@ In src/main/resources/application.properties, set up your database connection �
 ```
 
 Then, open a browser and navigate to:
+
 http://localhost:8080/?useDb=true — to fetch from the local database
+
 http://localhost:8080/?useDb=false — to fetch from the Erste API and save to the DB
