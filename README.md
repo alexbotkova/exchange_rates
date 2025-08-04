@@ -24,4 +24,5 @@ Then, open a browser and navigate to:
 
 http://localhost:8080/?useDb=true — to fetch from the local database
 
-http://localhost:8080/?useDb=false — to fetch from the Erste API and save to the DB
+http://localhost:8080/?useDb=false — to fetch from the current list of exchange rate tickets
+system in Česká spořitelna and save them to the DB
